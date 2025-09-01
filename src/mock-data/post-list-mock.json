@@ -1,6 +1,40 @@
 {
     "content": [
         {
+            "postId": 53,
+            "thumbImgUrl": null,
+            "headerImgUrl": null,
+            "title": "新增测试数据",
+            "postTime": "2023-08-25 10:00:00",
+            "content": "这是一条新增的mock数据，用于测试内容填充和数据结构验证。",
+            "summary": null,
+            "originalURL": null,
+            "postType": "0",
+            "updateTime": "2023-08-25 10:00:00",
+            "readTimes": 0,
+            "likedTimes": 0,
+            "commentTimes": 0,
+            "userId": 2,
+            "email": "Rigelumos@126.com",
+            "nickName": "Rigelumos",
+            "enableComment": "Y",
+            "status": 4,
+            "fileUploadEntities": [{
+                "id": 316,
+                "fileName": "1690612766124.jpg",
+                "displayName": "brotherhood-at-sunset-1-1244631",
+                "fileSuffix": "jpg",
+                "fileSize": 501147,
+                "path": "C:\\nicefish\\upload\\1690612766124.jpg",
+                "url": "/images/tree.jpg", 
+                "fileDesc": null,
+                "displayOrder": 1,
+                "upTime": "2023-07-29 14:39:26",
+                "userId": null
+                }],
+            "lastModifyTime": "2023-08-25 10:00:00"
+        },
+        {
             "postId": 52,
             "thumbImgUrl": null,
             "headerImgUrl": null,
