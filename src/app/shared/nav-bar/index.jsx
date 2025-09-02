@@ -69,41 +69,41 @@ const NavBar = props => {
       icon: "fa-home",
       url: "/post"
     },
-    // {
-    //     label: i18n.t("navbar.discover"),
-    //     icon: "fa-globe",
-    //     url: "/post"
-    // },
+    {
+        label: i18n.t("navbar.discover"),
+        icon: "fa-globe",
+        url: "/post"
+    },
     {
       label: i18n.t("navbar.follow"),
       icon: "fa-heart",
       url: "/post"
     },
-    // {
-    //     label: i18n.t("navbar.travel"),
-    //     icon: "fa-plane",
-    //     url: "/post"
-    // },
-    // {
-    //     label: i18n.t("navbar.fitness"),
-    //     icon: "fa-futbol-o",
-    //     url: "/post"
-    // },
-    // {
-    //     label: i18n.t("navbar.movies"),
-    //     icon: "fa-film",
-    //     url: "/post"
-    // },
-    // {
-    //     label: i18n.t("navbar.music"),
-    //     icon: "fa-music",
-    //     url: "/post"
-    // },
-    // {
-    //     label: i18n.t("navbar.food"),
-    //     icon: "fa-cutlery",
-    //     url: "/post"
-    // },
+    {
+        label: i18n.t("navbar.travel"),
+        icon: "fa-plane",
+        url: "/post"
+    },
+    {
+        label: i18n.t("navbar.fitness"),
+        icon: "fa-futbol-o",
+        url: "/post"
+    },
+    {
+        label: i18n.t("navbar.movies"),
+        icon: "fa-film",
+        url: "/post"
+    },
+    {
+        label: i18n.t("navbar.music"),
+        icon: "fa-music",
+        url: "/post"
+    },
+    {
+        label: i18n.t("navbar.food"),
+        icon: "fa-cutlery",
+        url: "/post"
+    },
     {
       label: i18n.t("navbar.write"),
       icon: "fa-pencil",

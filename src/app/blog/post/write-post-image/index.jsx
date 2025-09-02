@@ -180,6 +180,21 @@ export default props => {
     );
   }
 
+  const doResetPost = (e) => {
+    e.preventDefault();
+    setPost({
+      title: "",//服务端接口要求必须传 title ，可为空字符串
+      content: "",
+      captcha: ""
+    });
+    setUploadedFiles([]);
+    setTotalSize(0);
+    setErrors({});
+    if (fileUploadRef.current) {
+      fileUploadRef.current.clear();
+    }
+  }  
+
   return (
     <div className="write-post-container">
       <div className="row">
@@ -347,9 +362,14 @@ export default props => {
                   </div>
                 </>
             }
-            <button type="button" className="btn btn-primary" onClick={doWritePost}>
-              {i18n.t("submit")}
-            </button>
+            <div>
+              <button type="button" className="btn btn-primary" onClick={doWritePost}>
+                {i18n.t("submit")}
+              </button>
+              <button type="reset" className="btn btn-primary" onClick={doResetPost}>
+                重置
+              </button>
+            </div>
           </form>
         </div>
         <div className="col-md-2">
